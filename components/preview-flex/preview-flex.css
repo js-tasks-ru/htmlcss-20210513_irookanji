@@ -1,0 +1,18 @@
+.preview-flex {
+  background: #F9FAFC;
+  padding: 68px 0 92px;
+}
+
+.preview-flex__card {
+  width: 33.33%;
+  height: 367px;
+  background: blue;
+  box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+  border-radius: 12px; 
+}
+
+.preview-flex__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}

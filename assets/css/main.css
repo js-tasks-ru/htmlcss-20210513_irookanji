@@ -33,3 +33,19 @@ html {
     --primary: var(--blue);
     --secondary: var(--purple);    
 }
+
+
+html, body {
+    height: 100%;
+    font-size: 0;
+}
+
+/* other */
+    --b-radius-sm: 4px;
+    --b-radius-md: 8px;
+    --b-radius-lg: 10px;
+    --b-radius-xlg: 16px;
+    --b-radius-half: 50%;
+    --b-color: var(--gray-3);
+    --half-opacity: .5;
+    --skeleton-line-gradient: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
