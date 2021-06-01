@@ -1,10 +1,64 @@
 <!DOCTYPE html>
 <!-- Главная страница -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="./assets/css/main.css">
-    </head>
-    <body>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./components/page/page.css" />
+    <link rel="stylesheet" href="./components/header/header.css" />
+    <link rel="stylesheet" href="./components/footer/footer.css" />
+    <link rel="stylesheet" href="./components/menu/menu.css" />
+    <link rel="stylesheet" href="./components/component/component.css" />
+    <link rel="stylesheet" href="./components/card/card.css" />
+    <link rel="stylesheet" href="./components/histogram/histogram.css" />
+    <link rel="stylesheet" href="./components/preview-flex/preview-flex.css" />
+    <link rel="stylesheet" href="./components/nav/nav.css" />
+    <link rel="stylesheet" href="./components/main/main.css" />
+    <link rel="stylesheet" href="./03-lection1/01-button/button.css" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="page__box header__container">
+        <div class="header__logo">
+          <svg
+            width="110"
+            height="32"
+            viewBox="0 0 110 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect y="1" width="30" height="30" fill="#212429" />
+            <rect x="38" width="32" height="32" rx="16" fill="#212429" />
+            <path d="M78 0L110 32H78V0Z" fill="#212429" />
+          </svg>
+        </div>
+        <nav class="nav">
+          <a href="" class="nav__item">item</a>
+          <a href="" class="nav__item">item</a>
+          <a href="" class="nav__item">item</a>
+        </nav>
+      </div>
+      <div class="page__box">
+        <h1 class="header__title">Reusable component library</h1>
+      </div>
+    </header>
 
-    </body>
+    <main class="page__main">
+        <div class="preview-flex">
+            <div class="page__box">
+                <div class="preview-flex__container">
+                    <div class="preview-flex__card"></div>
+                    <div class="preview-flex__card"></div>
+                    <div class="preview-flex__card"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+      <div class="page__box footer__descr">
+        <p class="footer_text">Reusable component library</p>
+      </div>
+    </footer>
+  </body>
 </html>
