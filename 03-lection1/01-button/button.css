@@ -23,7 +23,7 @@
   background-color: var(--primary);
 }
 
-.button:hover:not([disabled]) {
+.button--primary:hover:not([disabled]) {
   background-color: var(--dark_blue);
 }
 
@@ -34,6 +34,7 @@
 .button:disabled {
   opacity: 0.5;
   cursor: default;
+  pointer-events: none;
 }
 
 .button--secondary {

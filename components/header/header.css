@@ -12,10 +12,6 @@
     color: var(--black);
 }
 
-.header__block {
-    min-height: 82px;
-}
-
 .header__container {
     display: flex;
     justify-content: space-between;

@@ -1,0 +1,22 @@
+.menu {
+  grid-area: menu;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-row-gap: 20px;
+  align-self: self-start;
+}
+
+.menu__header {
+  font-family: 'Inter Medium';
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.menu__items {
+  display: grid;
+  grid-row-gap: 10px;
+}
+
+.menu__item:last-child {
+  margin-top: 30px;
+}
