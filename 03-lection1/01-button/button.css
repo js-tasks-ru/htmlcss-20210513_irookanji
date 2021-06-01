@@ -1,10 +1,14 @@
 /* Стилизация кнопки */
 
-.button {
+.button-container {
   display: inline-block;
   border: none;
-  padding: 15px 62px;
-  margin: 10px;
+  margin: 10px;  
+}
+
+.button {
+  width: 189px;
+  height: 48px;
   border-radius: 8px;
   font-weight: 500;
   font-size: 16px;
