@@ -1,7 +1,6 @@
 /* Стилизация аккордеона */
 .accordion {
   width: 730px;
-  height: 72px;
   background-color: var(--white);
   border: 1px solid var(--b-color);
   border-radius: var(--b-radius-md);
@@ -10,11 +9,11 @@
   position: relative;
 }
 
-summary:focus{
+.accordion__summary:focus{
   outline: none;
 }
 
-details > summary::-webkit-details-marker {
+.accordion__summary::-webkit-details-marker {
   display: none;
 }
 
