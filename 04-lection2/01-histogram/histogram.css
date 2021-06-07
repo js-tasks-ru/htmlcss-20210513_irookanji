@@ -49,6 +49,7 @@
 }
 
 .histogram__item {
+  flex-grow: 1;
   background-color: var(--bright-blue);
   flex-basis: 20%;
   border: 1px solid var(--white);
